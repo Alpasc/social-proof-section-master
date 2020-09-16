@@ -1,0 +1,93 @@
+@media screen and (max-width: 767px) {
+  body {
+    margin: 20px;
+    font-size: 15px;
+    font-family: "Spartan", sans-serif;
+    color: hsl(300, 43%, 22%);
+    background-image: url("./images/bg-pattern-top-mobile.svg"),
+      url("./images/bg-pattern-bottom-mobile.svg");
+    background-position: left top, bottom right;
+    background-repeat: no-repeat;
+    background-size: 100%, 85%;
+  }
+
+  .title {
+    margin: 75px 50px 0 50px;
+    text-align: center;
+    letter-spacing: -1px;
+  }
+
+  .description p {
+    text-align: center;
+  }
+
+  .review-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 55px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 7px;
+    margin: 30px 0;
+    padding: 15px 0;
+  }
+
+  .rating {
+    font-weight: 700;
+  }
+
+  .opinion-card {
+    height: auto;
+    background-color: hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    padding: 40px 30px 20px 30px;
+    border-radius: 7px;
+    margin-top: 20px;
+  }
+
+  .opinion1 {
+    margin-top: 40px;
+  }
+
+  .person {
+    display: flex;
+  }
+
+  .person-pic {
+    border-radius: 50%;
+    margin-right: 30px;
+    height: 55px;
+    width: auto;
+  }
+
+  .person-name {
+    font-weight: 700;
+    line-height: 0.5;
+  }
+
+  .person-status {
+    color: hsl(333, 80%, 67%);
+    font-weight: lighter;
+    line-height: 0.5;
+  }
+
+  .opinion-paragraph {
+    line-height: 1.5;
+    letter-spacing: -1px;
+  }
+
+  hr {
+    margin: 15px;
+  }
+
+  .attribution {
+    margin: 15px;
+    text-align: center;
+  }
+
+  .attribution a {
+    text-decoration: none;
+    color : hsl(333, 80%, 67%);
+    font-weight: 500;
+  }
+}
