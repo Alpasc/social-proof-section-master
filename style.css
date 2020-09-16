@@ -43,7 +43,7 @@ body {
   width: 50%;
   margin-top:  100px;
   margin-left:  150px;
-  margin-right: 80px;
+  margin-right: 100px;
   padding: 50px;
 }
 
@@ -89,6 +89,10 @@ body {
   
 } */
 
+.bottom-elements {
+  padding: 0 100px;
+}
+
 .opinion-card {
   width: 350px;
   height: 200px;
@@ -121,6 +125,11 @@ body {
 
 .opinion-paragraph {
   line-height: 1.8;
+}
+
+.opinion1{
+  position: relative;
+  margin-left: 50px;
 }
 
 .opinion2 {
