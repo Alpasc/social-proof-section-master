@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  width: 100%;
+  width: 1440px;
   margin: 0;
   font-size: 15px;
   font-family: "Spartan", sans-serif;
@@ -12,18 +12,66 @@ body {
   background-size: 50%, 80%;
 }
 
-.presentation {
-  height: 250px;
-  width: 400px;
-  margin: 100px;
+.top-elements {
+  display:flex;
 }
 
-h1{
-  width: 300px;
-  margin:0;
-  text-align: left;
+.presentation {
+  width: 40%;
+  margin-top:  100px;
+  margin-left:  150px;
+}
+
+.title{
+  width: 350px;
+  font-size: 20px;
 }
 
 .description {
-  font-size: 10px;;
+  font-size: 15px;
+  width: 400px;
+}
+
+.reviews {
+  height: 250px;
+  width: 50%;
+  margin-top:  100px;
+  margin-left:  150px;
+  padding: 50px;
+}
+
+.review-card {
+  display: flex;
+  width: 450px;
+  height: 55px;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 7px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.card2 {
+  left: 50px;
+}
+
+.card3 {
+  left: 100px;
+}
+
+.stars {
+  padding: 5px 25px;
+}
+
+.star {
+  height: 15px;
+  width: auto;
+  margin: 15px 0;
+  padding: 3px;
+}
+
+.rating {
+  padding-top: 10px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 14px;
 }
