@@ -9,12 +9,16 @@ body {
   background-image: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-bottom-desktop.svg');
   background-position: left top, bottom right;
   background-repeat: no-repeat;
-  background-size: 50%, 80%;
+  background-size: 40%, 85%;
 }
 
-.top-elements {
+
+.top-elements, .bottom-elements {
   display:flex;
+  position: relative;
 }
+
+      /* top-left elements */
 
 .presentation {
   width: 40%;
@@ -32,11 +36,14 @@ body {
   width: 400px;
 }
 
+   /* top-right elements */
+
 .reviews {
   height: 250px;
   width: 50%;
   margin-top:  100px;
   margin-left:  150px;
+  margin-right: 80px;
   padding: 50px;
 }
 
@@ -75,3 +82,7 @@ body {
   font-weight: 700;
   font-size: 14px;
 }
+
+   /* botton elements */
+
+   
